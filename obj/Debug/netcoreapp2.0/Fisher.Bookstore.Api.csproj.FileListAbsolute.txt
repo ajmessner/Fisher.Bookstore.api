@@ -1,0 +1,10 @@
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\bin\Debug\netcoreapp2.0\Fisher.Bookstore.Api.deps.json
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\bin\Debug\netcoreapp2.0\Fisher.Bookstore.Api.runtimeconfig.json
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\bin\Debug\netcoreapp2.0\Fisher.Bookstore.Api.runtimeconfig.dev.json
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\bin\Debug\netcoreapp2.0\Fisher.Bookstore.Api.dll
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\bin\Debug\netcoreapp2.0\Fisher.Bookstore.Api.pdb
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\obj\Debug\netcoreapp2.0\Fisher.Bookstore.Api.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\obj\Debug\netcoreapp2.0\Fisher.Bookstore.Api.AssemblyInfoInputs.cache
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\obj\Debug\netcoreapp2.0\Fisher.Bookstore.Api.AssemblyInfo.cs
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\obj\Debug\netcoreapp2.0\Fisher.Bookstore.Api.dll
+C:\Users\Anthony\OneDrive\OSU-AnthonysPC\OSU Senior Year\Second Semester\ACCTMIS 3610\Working_Folder\Fisher.Bookstore.api\obj\Debug\netcoreapp2.0\Fisher.Bookstore.Api.pdb
