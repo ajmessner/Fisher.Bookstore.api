@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Fisher.Bookstore.Api.Models;
 using Microsoft.AspNetCore.Mvc;
+using Fisher.Bookstore.Api.Data;
 
 
 namespace Fisher.Bookstore.Api.Controllers
@@ -46,18 +47,18 @@ namespace Fisher.Bookstore.Api.Controllers
           this.db.Authors.Add(author);
           this.db.SaveChanges();
 
-          return CreatedAtRoute("GetAuthor", new { id = author.AuthorId}, author);
+          return CreatedAtRoute("GetAuthor", new { id = author.Id}, author);
       }
 
       [HttpPut("{id}")]
 
       public IActionResult Put(int id, [FromBody]Author newAuthor)
       {
-          if(newAuthor == null || newAuthor.AuthorId != id)
+          if(newAuthor == null || newAuthor.Id != id)
           {
               return BadRequest();
           }
-          var currentAuthor = this.db.Authors.FirstOrDefault(x => x.AuthorId == id);
+          var currentAuthor = this.db.Authors.FirstOrDefault(x => x.Id == id);
 
           if(currentAuthor == null)
           {
@@ -79,7 +80,7 @@ namespace Fisher.Bookstore.Api.Controllers
 
       public IActionResult Delete(int id)
       {
-          var author = this.db.Authors.FirstOrDefault(x => x.AuthorId == id);
+          var author = this.db.Authors.FirstOrDefault(x => x.Id == id);
           if(author == null)
           {
               return NotFound();
@@ -101,13 +102,13 @@ namespace Fisher.Bookstore.Api.Controllers
           if(this.db.Authors.Count() == 0)
           {
             this.db.Authors.Add(new Author {
-                AuthorId = 1,
+                Id = 1,
                 Name = "Anthony Messner"
             });
 
 
                 this.db.Authors.Add(new Author {
-                AuthorId = 2,
+                Id = 2,
                 Name = "Jane Doe"
             });
 
